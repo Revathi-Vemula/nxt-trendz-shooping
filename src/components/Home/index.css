@@ -1,0 +1,78 @@
+.page-content {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  font-family: 'Consolas';
+}
+
+.home-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+.home-content {
+  width: 100%;
+  margin: 10px;
+}
+
+@media screen and (min-width: 768px) {
+  .home-content {
+    width: 45%;
+  }
+}
+
+.heading {
+  font-size: 25px;
+}
+
+.btn-shop-now {
+  display: flex;
+  width: 60%;
+  height: 35px;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Consolas';
+  color: #e2e8f0;
+  font-size: 15px;
+  font-weight: 800;
+  justify-content: center;
+  align-items: center;
+  background-color: #0b69ff;
+  border-style: none;
+  border-radius: 10px;
+  align-self: center;
+}
+
+@media screen and (min-width: 768px) {
+  .btn-shop-now {
+    width: 30%;
+  }
+}
+
+.img-clothes {
+  display: flex;
+  height: 50%;
+  width: 100%;
+}
+
+@media screen and (min-width: 768px) {
+  .img-clothes {
+    display: none;
+  }
+}
+
+.img-clothes-lg {
+  display: none;
+  height: 70%;
+  width: 40%;
+}
+
+@media screen and (min-width: 768px) {
+  .img-clothes-lg {
+    display: flex;
+  }
+}
